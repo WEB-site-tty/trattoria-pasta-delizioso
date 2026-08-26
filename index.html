@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>パスタ＆ピッツァ Delizioso | ご家族みんなで楽しめる90分食べ放題イタリアン</title>
+  <meta name="description" content="ご家族みんなで笑顔になれる！モチモチ自家製生パスタと窯焼きピッツァが90分食べ放題1,980円。小学生半額・未就学児無料！キッズチェアー・キッズメニュー完備。">
+  
+  <!-- Google Fonts: Zen Maru Gothic, M PLUS Rounded 1c, Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Plus+Jakarta+Sans:wght@500;700;800&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Family Announcement Bar -->
+  <div class="family-top-bar">
+    <i class="fa-solid fa-child-reaching"></i> 家族みんなで大満足！小学生半額 990円 / 未就学児 無料！ベビーカー入店＆キッズチェアー完備！
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-sub"><i class="fa-solid fa-pizza-slice"></i> FAMILY TRATTORIA</span>
+        <span class="logo-main">Pasta Delizioso</span>
+      </a>
+      
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="メニューを開く">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#family-features" class="nav-item">ファミリーへのこだわり</a>
+        <a href="#all-you-can-eat" class="nav-item badge-link">90分食べ放題</a>
+        <a href="#menu" class="nav-item">メニュー</a>
+        <a href="#drinks" class="nav-item">ドリンク＆キッズ</a>
+        <a href="#access" class="nav-item">アクセス</a>
+        <button class="btn btn-primary nav-btn open-modal-btn"><i class="fa-solid fa-envelope"></i> WEB予約</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section (Family Friendly) -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fa-solid fa-face-smile-beam"></i> 家族みんなで笑顔になれる人気店！
+      </div>
+      <h1 class="hero-title">出来たてモチモチ生パスタ＆<br>焼きたてピッツァを心ゆくまで！</h1>
+      <p class="hero-subtitle">
+        毎朝仕込む自家製生パスタと香ばしい窯焼きピッツァ。<br>
+        【90分食べ放題 1,980円】小学生半額・未就学児無料！キッズコーナーやドリンクバーも大充実♪
+      </p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-secondary"><i class="fa-solid fa-utensils"></i> メニューを見る</a>
+        <button class="btn btn-gold open-modal-btn" data-course="eat-all"><i class="fa-solid fa-calendar-check"></i> 席をWEB予約する</button>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>SCROLL</span>
+      <i class="fa-solid fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- Family Friendly Features Section -->
+  <section class="family-features section-padding" id="family-features">
+    <div class="container">
+      <div class="text-center section-header">
+        <span class="section-tag font-accent">FOR EVERY FAMILY</span>
+        <h2 class="section-title">お子様連れファミリー大歓迎！<br>Deliziosoが選ばれる4つの安心</h2>
+        <p class="section-subtitle">小さなお子様からおじいちゃん・おばあちゃんまで、ご家族みんながリラックスして楽しめる空間づくりを心がけています。</p>
+      </div>
+
+      <div class="grid grid-4">
+        <div class="f-card">
+          <div class="f-icon red-bg"><i class="fa-solid fa-child-filled"></i></div>
+          <h3>お子様料金がお得！</h3>
+          <p>90分食べ放題は<strong>小学生半額（990円）</strong>、<strong>未就学児は完全無料！</strong>ファミリーのお財布にも優しい安心価格。</p>
+        </div>
+        <div class="f-card">
+          <div class="f-icon orange-bg"><i class="fa-solid fa-baby-carriage"></i></div>
+          <h3>ベビーカー＆キッズ椅子完備</h3>
+          <p>通路が広くベビーカーのままテーブル横まで入店OK。お子様用ハイチェアやアレルギー対応メニューもご相談いただけます。</p>
+        </div>
+        <div class="f-card">
+          <div class="f-icon green-bg"><i class="fa-solid fa-ice-cream"></i></div>
+          <h3>ドリンクバー＆アイスバー</h3>
+          <p>ジュースやフレッシュドリンクバーに加え、食後のお楽しみアイスクリームサーバーコーナー（食べ放題付）が大人気！</p>
+        </div>
+        <div class="f-card">
+          <div class="f-icon yellow-bg"><i class="fa-solid fa-gamepad"></i></div>
+          <h3>おもちゃ付きキッズプレート</h3>
+          <p>食べ放題以外にも、カワイイおもちゃ付きキッズプレート（580円）をご用意。お子様が退屈せず楽しく過ごせます。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Concept Section -->
+  <section class="concept section-padding" id="concept">
+    <div class="container">
+      <div class="grid grid-2 align-center">
+        <div class="concept-image-wrapper">
+          <img src="assets/hero-pasta.png" alt="モチモチ自家製生パスタ" class="img-responsive rounded-shadow">
+          <div class="experience-badge">
+            <span class="badge-num">100%</span>
+            <span class="badge-text">自家製生麺</span>
+          </div>
+        </div>
+        <div class="concept-text">
+          <span class="section-tag font-accent">OUR QUALITY</span>
+          <h2 class="section-title">安全・おいしい！こだわり素材の<br>モチモチ自家製生パスタ</h2>
+          <p class="section-desc">
+            毎朝職人が仕込む無添加の生パスタは、小麦本来の香りとモッチリ食感が自慢。お子様でも噛み切りやすく美味しく召し上がれます。
+          </p>
+          <p class="section-desc">
+            保存料・化学調味料を極力使わず、完熟イタリアントマトと厳選チーズで手作りした安心のソースでお届けします。
+          </p>
+          <div class="concept-features">
+            <div class="c-feature">
+              <i class="fa-solid fa-wheat-awn"></i>
+              <div>
+                <h4>安心の無添加生パスタ</h4>
+                <p>保存料不使用。お子様にも安心安全なおいしさ</p>
+              </div>
+            </div>
+            <div class="c-feature">
+              <i class="fa-solid fa-pizza-slice"></i>
+              <div>
+                <h4>焼きたて熱々ピッツァ</h4>
+                <p>お店の窯で一気に焼き上げるモチモチ生地のナポリピッツァ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 90-min All You Can Eat Feature Banner Section -->
+  <section class="all-you-can-eat section-padding" id="all-you-can-eat">
+    <div class="container">
+      <div class="ayce-card">
+        <div class="ayce-content">
+          <div class="ayce-header">
+            <span class="ayce-tag"><i class="fa-solid fa-star"></i> 一番人気コース</span>
+            <h2 class="ayce-title">90分 パスタ＆ピッツァ 食べ放題コース</h2>
+            <div class="ayce-price-box">
+              <span class="price-label">大人お一人様</span>
+              <span class="price-currency">¥</span>
+              <span class="price-amount">1,980</span>
+              <span class="price-tax">（税込）</span>
+            </div>
+            <div class="ayce-kids-price">
+              <span class="k-badge red"><i class="fa-solid fa-child"></i> 小学生: 990円（税込）</span>
+              <span class="k-badge green"><i class="fa-solid fa-baby"></i> 未就学児: 無料！</span>
+            </div>
+          </div>
+
+          <div class="ayce-grid">
+            <div class="ayce-item">
+              <div class="ayce-icon"><i class="fa-solid fa-bowl-food"></i></div>
+              <h3>生パスタ全15種</h3>
+              <p>濃厚カルボナーラ・ボロネーゼ・海老ジェノベーゼなど名物パスタが食べ放題！</p>
+            </div>
+            <div class="ayce-item">
+              <div class="ayce-icon"><i class="fa-solid fa-pizza-slice"></i></div>
+              <h3>窯焼きピッツァ＆スープ</h3>
+              <p>マルゲリータやコーンマヨピザ、本日のあったかスープも好きなだけ。</p>
+            </div>
+            <div class="ayce-item">
+              <div class="ayce-icon"><i class="fa-solid fa-leaf"></i></div>
+              <h3>サラダバー＆スープ</h3>
+              <p>新鮮野菜ビュッフェでパパママも栄養バッチリ！特製ドレッシング各種。</p>
+            </div>
+            <div class="ayce-item">
+              <div class="ayce-icon"><i class="fa-solid fa-mug-hot"></i></div>
+              <h3>ドリンクバー＆アイス付き</h3>
+              <p>ジュース・お茶が飲み放題！食後のアイスクリームビュッフェもセット♪</p>
+            </div>
+          </div>
+
+          <div class="ayce-cta">
+            <button class="btn btn-gold btn-large open-modal-btn" data-course="eat-all">
+              <i class="fa-solid fa-fire"></i> 90分食べ放題コースをWEB予約する
+            </button>
+          </div>
+        </div>
+        <div class="ayce-image">
+          <img src="assets/tabehoudai.png" alt="90分パスタ＆ピッツァ食べ放題ビュッフェ">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section with Expanded Single Pasta & Kids Items -->
+  <section class="menu-section section-padding" id="menu">
+    <div class="container">
+      <div class="text-center section-header">
+        <span class="section-tag font-accent">DELICIOUS MENU</span>
+        <h2 class="section-title">自慢のメニュー</h2>
+        <p class="section-subtitle">バリエーション豊富な14種以上のパスタ単品からキッズメニュー、ワインまで勢揃い！</p>
+      </div>
+
+      <!-- Main Time Tab: Lunch vs Dinner -->
+      <div class="menu-time-tabs" role="tablist">
+        <button class="time-tab active" id="tab-lunch" role="tab" aria-selected="true" data-time="lunch">
+          <i class="fa-solid fa-sun"></i>
+          <span class="tab-title">LUNCH MENU</span>
+          <span class="tab-time">11:30 - 15:00 (L.O. 14:30)</span>
+        </button>
+        <button class="time-tab" id="tab-dinner" role="tab" aria-selected="false" data-time="dinner">
+          <i class="fa-solid fa-moon"></i>
+          <span class="tab-title">DINNER MENU</span>
+          <span class="tab-time">17:00 - 22:30 (L.O. 21:30)</span>
+        </button>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="menu-cat-filters">
+        <button class="cat-filter active" data-filter="all">すべて表示</button>
+        <button class="cat-filter" data-filter="ayce">90分食べ放題対象</button>
+        <button class="cat-filter" data-filter="kids"><i class="fa-solid fa-child"></i> キッズメニュー</button>
+        <button class="cat-filter" data-filter="pasta">パスタ単品（14種）</button>
+        <button class="cat-filter" data-filter="side">ピッツァ・サイド</button>
+        <button class="cat-filter" data-filter="drink">ドリンク</button>
+      </div>
+
+      <!-- Time Context Banner -->
+      <div class="time-banner" id="time-banner">
+        <div class="time-banner-content lunch-mode">
+          <img src="assets/lunch-pasta.png" alt="ランチパスタセット" class="time-banner-img">
+          <div>
+            <h3><i class="fa-solid fa-sun"></i> ランチタイムのご案内</h3>
+            <p>全ランチパスタに「ミニサラダ＆スープ」がセット！大人気のランチ90分食べ放題（1,980円 / 小学生990円）も毎日営業中！</p>
+          </div>
+        </div>
+        <div class="time-banner-content dinner-mode" style="display: none;">
+          <img src="assets/dinner-pasta.png" alt="ディナーパスタとワイン" class="time-banner-img">
+          <div>
+            <h3><i class="fa-solid fa-moon"></i> ディナータイムのご案内</h3>
+            <p>ご家族での夜のお食事やママ会、お祝いに！トリュフ香る本格パスタやワインに合うアンティパスト、ディナー食べ放題も大人気です。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu Items Grid (Rich Pasta Variety) -->
+      <div class="menu-grid" id="menu-grid">
+        
+        <!-- ===== KIDS MENU ITEMS ===== -->
+        <div class="menu-card" data-time="lunch dinner" data-cat="kids">
+          <div class="card-badge orange"><i class="fa-solid fa-gift"></i> おもちゃ付</div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">おもちゃ付き！キッズパスタプレート</h3>
+              <span class="card-price">¥580 <small>（税込）</small></span>
+            </div>
+            <p class="card-desc">お好きなミニパスタ（ナポリタン/ミートソース/クリーム）＋ニコニコスマイルポテト＋プリン＋選べるおもちゃ！</p>
+            <div class="card-tags">
+              <span class="tag gold-tag">ドリンクバー付</span>
+              <span class="tag">お子様人気No.1</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-time="lunch dinner" data-cat="kids">
+          <div class="card-badge orange"><i class="fa-solid fa-gift"></i> おもちゃ付</div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">キッズツナコーンピザプレート</h3>
+              <span class="card-price">¥520 <small>（税込）</small></span>
+            </div>
+            <p class="card-desc">甘いコーンとツナのマヨネーズピザ＋ポテト＋ゼリー＋おもちゃ付き！小さなお子様も大満足。</p>
+            <div class="card-tags">
+              <span class="tag gold-tag">ドリンクバー付</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-time="lunch dinner" data-cat="kids">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">キッズアイスクリーム盛り合わせ</h3>
+              <span class="card-price">¥200 <small>（税込）</small></span>
+            </div>
+            <p class="card-desc">バニラ・チョコ・ストロベリーから選べる食後のキッズ限定アイス。（※食べ放題コースの方は無料）</p>
+          </div>
+        </div>
+
+        <!-- ===== PASTA SINGLE ITEMS (14 Varieties) ===== -->
+        <!-- Pasta 1 -->
+        <div class="menu-card" data-time="lunch dinner" data-cat="pasta ayce">
+          <div class="card-badge green">名物看板</div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">究極の濃厚カルボナーラ</h3>
+              <span class="card-price">¥1,380 <small>（単品）</small></span>
+            </div>
+            <p class="card-desc">イタリア産パンチェッタの香ばしさと濃密な卵黄、削りたてパルミジャーノがモチモチ麺に絡む逸品。</p>
+            <div class="card-tags">
+              <span class="tag gold-tag">食べ放題対象</span>
+              <span class="tag">自家製生麺</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasta 2 -->
+        <div class="menu-card" data-time="lunch dinner" data-cat="pasta ayce">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">じっくり煮込んだ特製牛すじボロネーゼ</h3>
+              <span class="card-price">¥1,300 <small>（単品）</small></span>
+            </div>
+            <p class="card-desc">赤ワインとハーブで8時間コトコト煮込んだ粗挽き牛肉の深い旨味。お子様から大人まで大人気！</p>
+            <div class="card-tags">
+              <span class="tag gold-tag">食べ放題対象</span>
+              <span class="tag">太麺タリアテッレ</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasta 3 -->
+        <div class="menu-card" data-time="lunch dinner" data-cat="pasta ayce">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">完熟トマトとフレッシュバジルのアマトリチャーナ</h3>
+              <span class="card-price">¥1,200 <small>（単品）</small></span>
+            </div>
+            <p class="card-desc">太陽を浴びた完熟イタリアントマトの爽やかな甘みとグラナパダーノチーズのコク。</p>
+            <div class="card-tags">
+              <span class="tag gold-tag">食べ放題対象</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasta 4 -->
+        <div class="menu-card" data-time="lunch dinner" data-cat="pasta ayce">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">ぷりぷり海老とアボカドの自家製ジェノベーゼ</h3>
+              <span class="card-price">¥1,350 <small>（単品）</small></span>
+            </div>
+            <p class="card-desc">摘みたてフレッシュバジルの香ばしいペーストに大きなプリプリ海老と濃厚アボカド。</p>
+            <div class="card-tags">
+              <span class="tag gold-tag">食べ放題対象</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasta 5 (New) -->
+        <div class="menu-card" data-time="lunch dinner" data-cat="pasta ayce">
+          <div class="card-badge red">ファミリー定番</div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">昔懐かし昭和レトロ 喫茶風ナポリタン</h3>
+              <span class="card-price">¥1,100 <small>（単品）</small></span>
+            </div>
+            <p class="card-desc">香ばしいウインナー、玉ねぎ、ピーマンを特製ケチャップソースで炒めたモチモチナポリタン！</p>
+            <div class="card-tags">
+              <span class="tag gold-tag">食べ放題対象</span>
+              <span class="tag">子供大好き</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasta 6 (New) -->
+        <div class="menu-card" data-time="lunch dinner" data-cat="pasta ayce">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">浅利と大吟醸ニンニクのボンゴレビアンコ</h3>
+              <span class="card-price">¥1,250 <small>（単品）</small></span>
+            </div>
+            <p class="card-desc">たっぷりのアサリの出汁と白ワイン、エクストラバージンオリーブオイルで味わう上品な風味。</p>
+            <div class="card-tags">
+              <span class="tag gold-tag">食べ放題対象</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasta 7 (New) -->
+        <div class="menu-card" data-time="lunch dinner" data-cat="pasta ayce">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">サーモンとブロッコリーの明太子クリームパスタ</h3>
+              <span class="card-price">¥1,380 <small>（単品）</small></span>
+            </div>
+            <p class="card-desc">ノルウェー産サーモンとフレッシュブロッコリー、北海道産生クリームと博多明太子のまろやか贅沢風味。</p>
+            <div class="card-tags">
+              <span class="tag gold-tag">食べ放題対象</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasta 8 (New) -->
+        <div class="menu-card" data-time="lunch dinner" data-cat="pasta ayce">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">たっぷりたらことしめじの和風バター醤油スパゲティ</h3>
+              <span class="card-price">¥1,150 <small>（単品）</small></span>
+            </div>
+            <p class="card-desc">香ばしい出汁醤油と焦がしバター、弾けるたらこと刻み海苔。ホッとする和風人気No.1。</p>
+            <div class="card-tags">
+              <span class="tag gold-tag">食べ放題対象</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasta 9 (New) -->
+        <div class="menu-card" data-time="lunch dinner" data-cat="pasta ayce">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">生ハムと揚げ茄子のシチリア風トマトソース</h3>
+              <span class="card-price">¥1,320 <small>（単品）</small></span>
+            </div>
+            <p class="card-desc">ジューシーに揚げたなすとパルマ産生ハム、とろ〜りモッツァレラチーズが贅沢に溶け合う南イタリア風。</p>
+            <div class="card-tags">
+              <span class="tag gold-tag">食べ放題対象</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasta 10 (New) -->
+        <div class="menu-card" data-time="lunch dinner" data-cat="pasta ayce">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">ピリ辛完熟トマトのペンネアラビアータ</h3>
+              <span class="card-price">¥1,180 <small>（単品）</small></span>
+            </div>
+            <p class="card-desc">赤唐辛子とガーリックの刺激が癖になるショートパスタ。大人のお酒のおつまみにも最高です。</p>
+            <div class="card-tags">
+              <span class="tag gold-tag">食べ放題対象</span>
+              <span class="tag">ピリ辛</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasta 11 (Premium) -->
+        <div class="menu-card" data-time="dinner" data-cat="pasta">
+          <div class="card-badge gold">スペシャリテ</div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">ポルチーニ茸と黒トリュフのクリームタリアテッレ</h3>
+              <span class="card-price">¥1,880 <small>（単品）</small></span>
+            </div>
+            <p class="card-desc">芳醇なイタリア産ポルチーニ茸とフレッシュトリュフの香り高い贅沢至高のクリーム生パスタ。</p>
+            <div class="card-tags">
+              <span class="tag red-tag">ディナー限定</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasta 12 (Premium) -->
+        <div class="menu-card" data-time="dinner" data-cat="pasta">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">丸ごと渡り蟹の濃厚トマトクリームスパゲティ</h3>
+              <span class="card-price">¥1,780 <small>（単品）</small></span>
+            </div>
+            <p class="card-desc">渡り蟹の甲羅と出汁の旨味がぎゅっと凝縮されたまろやかでコク深い濃厚トマトクリーム。</p>
+            <div class="card-tags">
+              <span class="tag">海鮮贅沢</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasta 13 (Premium) -->
+        <div class="menu-card" data-time="dinner" data-cat="pasta">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">豪快！贅沢海鮮ペスカトーレ</h3>
+              <span class="card-price">¥1,980 <small>（単品）</small></span>
+            </div>
+            <p class="card-desc">海老、アサリ、ムール貝、ヤリイカがどっさり入った魚介の豊かなエキスが染み渡る逸品。</p>
+          </div>
+        </div>
+
+        <!-- Pasta 14 (AYCE) -->
+        <div class="menu-card" data-time="dinner" data-cat="pasta ayce">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">ゴルゴンゾーラとペンネの濃厚チーズ和え</h3>
+              <span class="card-price">¥1,580 <small>（単品）</small></span>
+            </div>
+            <p class="card-desc">イタリア産ゴルゴンゾーラDOPチーズのコク。濃厚なソースをショートパスタ「ペンネ」で。</p>
+            <div class="card-tags">
+              <span class="tag gold-tag">食べ放題対象</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== AYCE PLANS ===== -->
+        <div class="menu-card" data-time="lunch" data-cat="ayce">
+          <div class="card-badge gold">ランチ大人気</div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">90分パスタ＆ピッツァ食べ放題（ランチ）</h3>
+              <span class="card-price">¥1,980 <small>（大人）</small></span>
+            </div>
+            <p class="card-desc">生パスタ15種＋窯焼きピッツァ＋サラダバー＋スープ＋ドリンクバー＆アイスバーが90分食べ放題！<br><strong>※小学生990円 / 未就学児無料</strong></p>
+          </div>
+        </div>
+
+        <div class="menu-card" data-time="dinner" data-cat="ayce" style="display:none;">
+          <div class="card-badge gold">ディナー大人気</div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">90分パスタ＆ピッツァ食べ放題（ディナー）</h3>
+              <span class="card-price">¥1,980 <small>（大人）</small></span>
+            </div>
+            <p class="card-desc">夜も同価格！生パスタ15種＋窯焼きピッツァ＋前菜ビュッフェ＆スープが90分食べ放題！<br><strong>※小学生990円 / 未就学児無料</strong></p>
+          </div>
+        </div>
+
+        <!-- ===== SIDE & PIZZA ===== -->
+        <div class="menu-card" data-time="lunch dinner" data-cat="side ayce">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">ナポリ風 窯焼きマルゲリータピッツァ</h3>
+              <span class="card-price">¥1,380 <small>（単品）</small></span>
+            </div>
+            <p class="card-desc">高温の窯で一気に焼き上げるモチモチ生地と水牛モッツァレラチーズ。ご家族でシェア！</p>
+            <div class="card-tags"><span class="tag gold-tag">食べ放題対象</span></div>
+          </div>
+        </div>
+
+        <!-- ===== DRINK ITEMS ===== -->
+        <div class="menu-card" data-time="lunch dinner" data-cat="drink">
+          <div class="card-badge red">大人気カクテル</div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">アペロール スプリッツ (Aperol Spritz)</h3>
+              <span class="card-price">¥650</span>
+            </div>
+            <p class="card-desc">イタリアのアペリティーボ（食前酒）定番！爽やかなオレンジ風味とプロセッコの泡立ち。</p>
+          </div>
+        </div>
+
+        <div class="menu-card" data-time="lunch dinner" data-cat="drink">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">キャンティ（トスカーナ産 赤ワイン）</h3>
+              <span class="card-price">グラス ¥580 / ボトル ¥3,200</span>
+            </div>
+            <p class="card-desc">ボロネーゼや肉系パスタに最高の相性を魅せる、フレッシュでフルーティーな赤ワイン。</p>
+          </div>
+        </div>
+
+        <div class="menu-card" data-time="lunch dinner" data-cat="drink">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">ペローニ ナストロアズーロ（イタリア生ビール）</h3>
+              <span class="card-price">¥680</span>
+            </div>
+            <p class="card-desc">絶妙にバランスの取れた苦味とクリアなキレ。イタリアを代表するプレミアム生ビール。</p>
+          </div>
+        </div>
+
+        <div class="menu-card" data-time="lunch dinner" data-cat="drink">
+          <div class="card-body">
+            <div class="card-header">
+              <h3 class="card-name">自家製シチリアレモネード（ノンアルコール）</h3>
+              <span class="card-price">¥480</span>
+            </div>
+            <p class="card-desc">シチリア産オーガニックレモンをじっくりハチミツに漬け込んだフレッシュシロップ。</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Rich Drinks & Family Refreshment Section -->
+  <section class="drinks-section section-padding" id="drinks">
+    <div class="container">
+      <div class="grid grid-2 align-center">
+        <div class="drinks-text">
+          <span class="section-tag font-accent">BEVERAGE & KIDS</span>
+          <h2 class="section-title">大人も子供も大満足！<br>豊富なドリンク＆キッズコーナー</h2>
+          <p class="section-desc">
+            ソムリエ厳選の本格直輸入ワインやイタリアンカクテルから、お子様が大好きな10種類以上のドリンクバー＆ソフトクリームコーナーまで充実！
+          </p>
+          <div class="drink-cat-grid">
+            <div class="d-cat-box">
+              <i class="fa-solid fa-wine-bottle"></i>
+              <h4>ワイン・ビール</h4>
+              <p>赤・白・泡全15種＆生ビール</p>
+            </div>
+            <div class="d-cat-box">
+              <i class="fa-solid fa-glass-water"></i>
+              <h4>ドリンクバー</h4>
+              <p>10種以上のジュース・お茶</p>
+            </div>
+            <div class="d-cat-box">
+              <i class="fa-solid fa-ice-cream"></i>
+              <h4>キッズアイスサーバー</h4>
+              <p>自分で作るソフトクリーム体験</p>
+            </div>
+            <div class="d-cat-box">
+              <i class="fa-solid fa-mug-hot"></i>
+              <h4>カフェ＆ハーブティー</h4>
+              <p>本格エスプレッソ＆ラテ</p>
+            </div>
+          </div>
+          <div class="drink-note font-accent">
+            <i class="fa-solid fa-circle-info"></i> 90分食べ放題コースに **+500円（税込）** でアルコール全種飲み放題を追加できます！
+          </div>
+        </div>
+        <div class="drinks-image-wrapper">
+          <img src="assets/drinks.png" alt="豊富なドリンクメニュー" class="img-responsive rounded-shadow">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Access & Store Info Section -->
+  <section class="access-section section-padding" id="access">
+    <div class="container">
+      <div class="text-center section-header">
+        <span class="section-tag font-accent">LOCATION & HOURS</span>
+        <h2 class="section-title">店舗情報・アクセス</h2>
+        <p class="section-subtitle">ベビーカー入店OK・広々としたソファー席で皆様のご来店をお待ちしております。</p>
+      </div>
+
+      <div class="grid grid-2">
+        <div class="info-card">
+          <h3><i class="fa-solid fa-store"></i> 店舗概要</h3>
+          <table class="info-table">
+            <tr>
+              <th>店名</th>
+              <td>パスタ＆ピッツァ トラットリア Delizioso（デリツィオーゾ）</td>
+            </tr>
+            <tr>
+              <th>営業時間</th>
+              <td>
+                <strong>【ランチ】</strong> 11:30 - 15:00 (L.O. 14:30)<br>
+                <strong>【ディナー】</strong> 17:00 - 22:30 (L.O. 21:30)
+              </td>
+            </tr>
+            <tr>
+              <th>定休日</th>
+              <td>毎週月曜日（祝日の場合は翌火曜日）</td>
+            </tr>
+            <tr>
+              <th>電話番号</th>
+              <td><a href="tel:0312345678" class="phone-link"><i class="fa-solid fa-phone"></i> 03-1234-5678</a></td>
+            </tr>
+            <tr>
+              <th>住所</th>
+              <td>〒150-0001 東京都渋谷区神宮前 4-12-10 1F</td>
+            </tr>
+            <tr>
+              <th>ファミリー施設</th>
+              <td>キッズチェアー完備 / ベビーカー入店可 / 離乳食持ち込み可 / おむつ替え台設置</td>
+            </tr>
+            <tr>
+              <th>お支払方法</th>
+              <td>クレジットカード（VISA, Master, JCB, AMEX）、電子マネー、PayPay</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="map-card">
+          <h3><i class="fa-solid fa-map-location-dot"></i> アクセス・マップ</h3>
+          <div class="map-placeholder">
+            <div class="map-inner">
+              <i class="fa-solid fa-location-dot map-pin"></i>
+              <h4>Pasta Delizioso</h4>
+              <p>JR・東京メトロ「渋谷駅」徒歩5分 /「表参道駅」徒歩7分</p>
+              <p class="map-note">明治通り沿い、緑のオリーブの木と赤い看板が目印です。</p>
+              <button class="btn btn-secondary btn-sm" onclick="alert('Google Mapsを開きます')">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Google Mapsで見る
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation Banner Footer Callout -->
+  <section class="cta-banner">
+    <div class="container text-center">
+      <h2>ご家族・お友達みんなで！WEB予約受付中</h2>
+      <p>土日祝日やご家族連れのご利用は混雑いたします。事前のWEB予約をご利用ください。</p>
+      <button class="btn btn-gold btn-large open-modal-btn">
+        <i class="fa-solid fa-calendar-days"></i> オンラインで席を予約する
+      </button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container text-center">
+      <div class="footer-logo">
+        <span class="logo-sub">FAMILY TRATTORIA</span>
+        <span class="logo-main">Pasta Delizioso</span>
+      </div>
+      <p class="footer-copy">&copy; 2026 Pasta Delizioso. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Web Reservation Modal with Detailed Children Age Breakdown -->
+  <div class="modal-backdrop" id="reservation-modal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" aria-label="閉じる">&times;</button>
+      <div class="modal-header">
+        <span class="font-accent gold-text"><i class="fa-solid fa-calendar-check"></i> ONLINE RESERVATION</span>
+        <h3 id="modal-title">ご来店・席のご予約</h3>
+        <p>ご希望の日時・人数とお子様の内訳をご選択ください。</p>
+      </div>
+
+      <form id="reservation-form" class="modal-form">
+        <!-- Target Email Config Input -->
+        <input type="hidden" id="target-gmail" value="takurock5268@gmail.com">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="【WEB予約申し込み】Pasta Delizioso">
+
+        <div class="form-group">
+          <label for="res-course"><i class="fa-solid fa-utensils"></i> コース選択</label>
+          <select id="res-course" required>
+            <option value="eat-all">【1番人気】90分パスタ＆ピッツァ食べ放題コース (大人¥1,980 / 小学生¥990 / 未就学児無料)</option>
+            <option value="lunch-set">ランチ限定 パスタ単品・セット予約</option>
+            <option value="kids-plan">キッズプレート・ファミリー席のみ予約</option>
+            <option value="dinner-seat">ディナー 席のみ予約（単品ご注文）</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="res-date"><i class="fa-solid fa-calendar"></i> ご来店日</label>
+            <input type="date" id="res-date" required>
+          </div>
+          <div class="form-group">
+            <label for="res-time"><i class="fa-solid fa-clock"></i> 時間</label>
+            <select id="res-time" required>
+              <option value="11:30">11:30（ランチ）</option>
+              <option value="12:00">12:00（ランチ）</option>
+              <option value="13:00">13:00（ランチ）</option>
+              <option value="17:30">17:30（ディナー）</option>
+              <option value="18:30">18:30（ディナー）</option>
+              <option value="19:30">19:30（ディナー）</option>
+              <option value="20:30">20:30（ディナー）</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Adult Count Selection -->
+        <div class="form-group">
+          <label for="res-people"><i class="fa-solid fa-user-group"></i> ご利用人数（大人）</label>
+          <select id="res-people" required>
+            <option value="1名">大人 1名様</option>
+            <option value="2名" selected>大人 2名様</option>
+            <option value="3名">大人 3名様</option>
+            <option value="4名">大人 4名様</option>
+            <option value="5名以上">大人 5名様以上</option>
+          </select>
+        </div>
+
+        <!-- Detailed Children Count Breakdown (Pre-school, Elementary, Junior High, High School+) -->
+        <div class="form-group">
+          <label><i class="fa-solid fa-child"></i> 同伴のお子様の内訳（各区分の人数を選択）</label>
+          <div class="kids-breakdown-grid">
+            <div class="k-group">
+              <label for="res-kids-preschool">未就学児<small>（無料）</small></label>
+              <select id="res-kids-preschool">
+                <option value="0名">0名</option>
+                <option value="1名">1名</option>
+                <option value="2名">2名</option>
+                <option value="3名">3名</option>
+                <option value="4名以上">4名以上</option>
+              </select>
+            </div>
+
+            <div class="k-group">
+              <label for="res-kids-elementary">小学生<small>（半額 990円）</small></label>
+              <select id="res-kids-elementary">
+                <option value="0名">0名</option>
+                <option value="1名">1名</option>
+                <option value="2名">2名</option>
+                <option value="3名">3名</option>
+                <option value="4名以上">4名以上</option>
+              </select>
+            </div>
+
+            <div class="k-group">
+              <label for="res-kids-junior">中学生</label>
+              <select id="res-kids-junior">
+                <option value="0名">0名</option>
+                <option value="1名">1名</option>
+                <option value="2名">2名</option>
+                <option value="3名">3名</option>
+                <option value="4名以上">4名以上</option>
+              </select>
+            </div>
+
+            <div class="k-group">
+              <label for="res-kids-high">高校生以上</label>
+              <select id="res-kids-high">
+                <option value="0名">0名</option>
+                <option value="1名">1名</option>
+                <option value="2名">2名</option>
+                <option value="3名">3名</option>
+                <option value="4名以上">4名以上</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="res-name"><i class="fa-solid fa-user"></i> お名前</label>
+          <input type="text" id="res-name" placeholder="山田 太郎" required>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="res-phone"><i class="fa-solid fa-phone"></i> 電話番号</label>
+            <input type="tel" id="res-phone" placeholder="090-1234-5678" required>
+          </div>
+          <div class="form-group">
+            <label for="res-email"><i class="fa-solid fa-envelope"></i> お客様のメールアドレス</label>
+            <input type="email" id="res-email" placeholder="example@email.com" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="res-note"><i class="fa-solid fa-comment-dots"></i> ご要望（キッズチェアー、ベビーカー利用など）</label>
+          <input type="text" id="res-note" placeholder="例：キッズチェアー1台希望、アレルギー相談等">
+        </div>
+
+        <button type="submit" class="btn btn-gold btn-block btn-large">
+          <i class="fa-solid fa-check"></i> 予約確定
+        </button>
+      </form>
+
+      <!-- Reservation Success Content (Displayed after submission without browser alerts) -->
+      <div id="reservation-success" class="modal-success-content" style="display: none;">
+        <div class="success-icon-wrap">
+          <i class="fa-solid fa-circle-check"></i>
+        </div>
+        <h3 class="success-title">ご予約を受け付けました！</h3>
+        <p class="success-desc">ご予約内容の確認のため、店舗よりお電話またはメールにてご連絡を差し上げる場合がございます。</p>
+        
+        <div class="success-summary-box">
+          <div class="s-row"><span class="s-label">ご予約代表者</span><span class="s-val" id="s-name">-</span></div>
+          <div class="s-row"><span class="s-label">ご来店日時</span><span class="s-val" id="s-datetime">-</span></div>
+          <div class="s-row"><span class="s-label">大人人数</span><span class="s-val" id="s-people">-</span></div>
+          <div class="s-row"><span class="s-label">お子様内訳</span><span class="s-val" id="s-kids">-</span></div>
+          <div class="s-row"><span class="s-label">ご選択コース</span><span class="s-val" id="s-course">-</span></div>
+        </div>
+
+        <div class="success-note">
+          <i class="fa-solid fa-heart-circle-check"></i> ご家族皆様でのご来店を、スタッフ一同心よりお待ちしております！
+        </div>
+
+        <button type="button" class="btn btn-gold btn-block btn-large" id="success-close-btn">
+          <i class="fa-solid fa-circle-xmark"></i> 閉じる
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
